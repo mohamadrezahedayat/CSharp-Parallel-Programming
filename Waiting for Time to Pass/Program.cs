@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Waiting_fot_Time_to_Pass
+namespace Waiting_for_Time_to_Pass
 {
     class Program
     {
