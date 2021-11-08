@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating and Starting Tasks", "Creating and Starting Tasks.csproj", "{86B9F96A-E771-46E2-B37F-19EC491372C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cancelling Tasks", "..\Cancelling Tasks\Cancelling Tasks.csproj", "{D10C38B7-A781-49A2-B5C2-8373057EEF23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite Cancellation Tokens", "..\Composite Cancellation Tokens\Composite Cancellation Tokens.csproj", "{487FCC8B-4D43-4FCB-9F9A-05F1783C965E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waiting fot Time to Pass", "..\Waiting fot Time to Pass\Waiting fot Time to Pass.csproj", "{47F63223-EE05-4CD2-A288-1D0D375404EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waiting for Tasks", "..\Waiting for Tasks\Waiting for Tasks.csproj", "{2438AEF1-DEAB-4068-9F9B-6CBBF81D576C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task Exception Handling", "..\Task Exception Handling\Task Exception Handling.csproj", "{461CAFD1-B125-44C9-8205-F1C39FC8115D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B9F96A-E771-46E2-B37F-19EC491372C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B9F96A-E771-46E2-B37F-19EC491372C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B9F96A-E771-46E2-B37F-19EC491372C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B9F96A-E771-46E2-B37F-19EC491372C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10C38B7-A781-49A2-B5C2-8373057EEF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10C38B7-A781-49A2-B5C2-8373057EEF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10C38B7-A781-49A2-B5C2-8373057EEF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10C38B7-A781-49A2-B5C2-8373057EEF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487FCC8B-4D43-4FCB-9F9A-05F1783C965E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487FCC8B-4D43-4FCB-9F9A-05F1783C965E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487FCC8B-4D43-4FCB-9F9A-05F1783C965E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487FCC8B-4D43-4FCB-9F9A-05F1783C965E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F63223-EE05-4CD2-A288-1D0D375404EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F63223-EE05-4CD2-A288-1D0D375404EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F63223-EE05-4CD2-A288-1D0D375404EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F63223-EE05-4CD2-A288-1D0D375404EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2438AEF1-DEAB-4068-9F9B-6CBBF81D576C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2438AEF1-DEAB-4068-9F9B-6CBBF81D576C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2438AEF1-DEAB-4068-9F9B-6CBBF81D576C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2438AEF1-DEAB-4068-9F9B-6CBBF81D576C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461CAFD1-B125-44C9-8205-F1C39FC8115D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461CAFD1-B125-44C9-8205-F1C39FC8115D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461CAFD1-B125-44C9-8205-F1C39FC8115D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461CAFD1-B125-44C9-8205-F1C39FC8115D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {982A3B8F-A420-41E4-B30E-11FC547DC1AE}
+	EndGlobalSection
+EndGlobal
