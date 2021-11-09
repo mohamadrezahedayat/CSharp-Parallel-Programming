@@ -33,6 +33,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex Global for Applicatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader-Writer Locks", "Reader-Writer Locks\Reader-Writer Locks.csproj", "{E12FC1E8-15D8-42A8-B974-0921C98121DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Concurrent Collections", "4. Concurrent Collections", "{F6472DF7-EE8E-4810-8085-137030546134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrent Dictionary", "Concurrent Dictionary\Concurrent Dictionary.csproj", "{1743E2A2-682C-49CA-AAA1-09F1F545E547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrent Queue", "Concurrent Queue\Concurrent Queue.csproj", "{AB6D46D3-57FD-4811-9CF8-4468A6064057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrent Stack", "Concurrent Stack\Concurrent Stack.csproj", "{B3E52289-F30F-4577-8CE5-A94CB90897DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrent Bag", "Concurrent Bag\Concurrent Bag.csproj", "{4947C2F7-4E0E-481B-85E5-CB4C2FB9DF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blocking Collection and the Consumer-Producer Pattern", "Blocking Collection and the Consumer-Producer Pattern\Blocking Collection and the Consumer-Producer Pattern.csproj", "{A4FADE30-032E-49E6-8160-3BEFC5528D6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +103,26 @@ Global
 		{E12FC1E8-15D8-42A8-B974-0921C98121DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E12FC1E8-15D8-42A8-B974-0921C98121DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E12FC1E8-15D8-42A8-B974-0921C98121DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1743E2A2-682C-49CA-AAA1-09F1F545E547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1743E2A2-682C-49CA-AAA1-09F1F545E547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1743E2A2-682C-49CA-AAA1-09F1F545E547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1743E2A2-682C-49CA-AAA1-09F1F545E547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6D46D3-57FD-4811-9CF8-4468A6064057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6D46D3-57FD-4811-9CF8-4468A6064057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6D46D3-57FD-4811-9CF8-4468A6064057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6D46D3-57FD-4811-9CF8-4468A6064057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E52289-F30F-4577-8CE5-A94CB90897DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E52289-F30F-4577-8CE5-A94CB90897DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E52289-F30F-4577-8CE5-A94CB90897DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E52289-F30F-4577-8CE5-A94CB90897DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4947C2F7-4E0E-481B-85E5-CB4C2FB9DF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4947C2F7-4E0E-481B-85E5-CB4C2FB9DF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4947C2F7-4E0E-481B-85E5-CB4C2FB9DF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4947C2F7-4E0E-481B-85E5-CB4C2FB9DF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4FADE30-032E-49E6-8160-3BEFC5528D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FADE30-032E-49E6-8160-3BEFC5528D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FADE30-032E-49E6-8160-3BEFC5528D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FADE30-032E-49E6-8160-3BEFC5528D6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +141,11 @@ Global
 		{ED7327C7-B310-4647-AE25-3FB3CAFBB335} = {0716BDE6-DD01-419F-9F95-0DF2D4CBC7A9}
 		{DB7C33D9-60E8-4F21-A2BB-BFDA79CEE199} = {0716BDE6-DD01-419F-9F95-0DF2D4CBC7A9}
 		{E12FC1E8-15D8-42A8-B974-0921C98121DD} = {0716BDE6-DD01-419F-9F95-0DF2D4CBC7A9}
+		{1743E2A2-682C-49CA-AAA1-09F1F545E547} = {F6472DF7-EE8E-4810-8085-137030546134}
+		{AB6D46D3-57FD-4811-9CF8-4468A6064057} = {F6472DF7-EE8E-4810-8085-137030546134}
+		{B3E52289-F30F-4577-8CE5-A94CB90897DD} = {F6472DF7-EE8E-4810-8085-137030546134}
+		{4947C2F7-4E0E-481B-85E5-CB4C2FB9DF00} = {F6472DF7-EE8E-4810-8085-137030546134}
+		{A4FADE30-032E-49E6-8160-3BEFC5528D6C} = {F6472DF7-EE8E-4810-8085-137030546134}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {982A3B8F-A420-41E4-B30E-11FC547DC1AE}
