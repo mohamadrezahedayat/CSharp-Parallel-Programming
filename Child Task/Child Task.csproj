@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4FADE30-032E-49E6-8160-3BEFC5528D6C}</ProjectGuid>
+    <ProjectGuid>{EFBBB583-3312-4E20-A9D9-05BCD963F3E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Blocking_Collection_and_the_Consumer_Producer_Pattern</RootNamespace>
-    <AssemblyName>Blocking Collection and the Consumer-Producer Pattern</AssemblyName>
+    <RootNamespace>Child_Task</RootNamespace>
+    <AssemblyName>Child Task</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

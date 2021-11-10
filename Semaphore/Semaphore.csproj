@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4FADE30-032E-49E6-8160-3BEFC5528D6C}</ProjectGuid>
+    <ProjectGuid>{82D7843C-C8C0-438B-8107-098E6768120E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Blocking_Collection_and_the_Consumer_Producer_Pattern</RootNamespace>
-    <AssemblyName>Blocking Collection and the Consumer-Producer Pattern</AssemblyName>
+    <RootNamespace>Semaphore</RootNamespace>
+    <AssemblyName>Semaphore</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

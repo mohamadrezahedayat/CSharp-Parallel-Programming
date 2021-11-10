@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4FADE30-032E-49E6-8160-3BEFC5528D6C}</ProjectGuid>
+    <ProjectGuid>{9DF427E9-CB9A-43E7-9CA9-89D15E14D488}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Blocking_Collection_and_the_Consumer_Producer_Pattern</RootNamespace>
-    <AssemblyName>Blocking Collection and the Consumer-Producer Pattern</AssemblyName>
+    <RootNamespace>Manual_Auto_Reset_Event</RootNamespace>
+    <AssemblyName>Manual-Auto Reset Event</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4FADE30-032E-49E6-8160-3BEFC5528D6C}</ProjectGuid>
+    <ProjectGuid>{0CA53A72-C30D-4EFB-8BD9-9FD727B2C420}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Blocking_Collection_and_the_Consumer_Producer_Pattern</RootNamespace>
-    <AssemblyName>Blocking Collection and the Consumer-Producer Pattern</AssemblyName>
+    <RootNamespace>Continuations</RootNamespace>
+    <AssemblyName>Continuations</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
